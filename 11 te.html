@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>1/1 </title>
+</head>
+<style>
+                       body {
+            margin: 0;
+            padding: 0;
+            background-image: url(13.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #333;
+                  }
+                      
+    .student-list {
+        background: white;
+        padding: 15px;
+        border-radius: 10px;
+        width: 90%;
+        margin: auto;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+       
+    }
+    label {
+        display: block;
+        padding: 5px;
+        border-bottom: 1px solid #eee;
+        
+    }
+
+  
+    #result {
+        margin-top: 15px;
+        background: #fff;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+        /* تحسين تصميم الصورة */
+        img {
+            border-radius: 30px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            margin: 20px;
+         
+            opacity: 0; /* الصورة تبدأ غير مرئية */
+            transform: scale(1.8); /* الصورة تبدأ بحجم أصغر */
+            animation: fadeInZoom 1.5s ease-in-out forwards; /* تطبيق الأنيميشن */
+        }
+
+        /* تحسين تصميم الزر */
+        button {
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 20px;
+            border: 2px solid rgb(0, 0, 0);
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 18px;
+            font-weight: bold;
+            color: rgb(255, 51, 0);
+            box-shadow: #333;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        button:hover {
+            background-color: rgba(0, 195, 255, 0.7);
+            color: white;
+            transform: scale(1.1);
+            box-shadow: inset;
+        }
+
+        /* تحسين النصوص */
+        h2 {
+            margin: 0;
+        }
+
+        /* تنسيق الحاوية */
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            
+        }
+
+        .container div {
+            margin: 10px;
+             border-radius: 20px;
+              
+        }
+         table {
+            margin: auto;
+            border-collapse: collapse;
+            width: 80%;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+           
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+        th {
+            background-color: #3498db;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #e1f5fe;
+        }
+
+          img {
+   
+                    border-radius: 30px;
+           
+            opacity: 0; /* الصورة تبدأ غير مرئية */
+            transform: scale(0.8); /* الصورة تبدأ بحجم أصغر */
+            animation: fadeInZoom 1.5s ease-in-out forwards; /* تطبيق الأنيميشن */
+        }
+ @keyframes fadeInZoom {
+            0% {
+                opacity: 0;
+                transform: scale(0.8);
+            }
+            100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+    </style>
+<body>
+    <div style="border: double; border-radius: 20px; background-image: url(10.jpg); ">
+<center><h1 style="color: rgb(255, 255, 255); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 40px;">GRADE 1 TEACHER PAGE</h1></center>
+<center><h1 style="color: rgb(255, 255, 255); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 40px;">الصف الاول الثانوي صفحه المعلم</h1></center>
+ </div><center>
+    <br>
+    <br> 
+        <table style="width: 90%; border-radius: 20px; ">
+        <tr>
+            <th>الحصة</th>
+            <th>الأحد</th>
+            <th>الإثنين</th>
+            <th>الثلاثاء</th>
+            <th>الأربعاء</th>
+            <th>الخميس</th>
+        </tr>
+        <tr>
+            <td>الأولى</td>
+            <td>رياضيات</td>
+            <td>لغة عربية</td>
+            <td>علوم</td>
+            <td>دراسات</td>
+            <td>دين</td>
+        </tr>
+        <tr>
+            <td>الثانية</td>
+            <td>علوم</td>
+            <td>رياضيات</td>
+            <td>لغة عربية</td>
+            <td>دين</td>
+            <td>لغة إنجليزية</td>
+        </tr>
+        <tr>
+            <td>الثالثة</td>
+            <td>لغة إنجليزية</td>
+            <td>دراسات</td>
+            <td>رياضيات</td>
+            <td>لغة عربية</td>
+            <td>علوم</td>
+        </tr>
+        <tr>
+            <td>الرابعة</td>
+            <td>دين</td>
+            <td>لغة إنجليزية</td>
+            <td>دراسات</td>
+            <td>علوم</td>
+            <td>رياضيات</td>
+        </tr>
+        <tr>
+            <td>الخامسة</td>
+            <td>أنشطة</td>
+            <td>أنشطة</td>
+            <td>أنشطة</td>
+            <td>أنشطة</td>
+            <td>أنشطة</td>
+        </tr>
+    </table>
+    <hr>
+    <div style="color: rgb(0, 0, 0); ">
+<h1 style="color: white;">تسجيل الغياب</h1>
+<h1 style="color: white;">حدد اسماء الطلاب الغائبين</h1>
+<div class="student-list" style="background-color: rgba(255, 255, 255, 0.8); padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+    <!-- قائمة الطلاب -->
+    <form id="absenceForm" >
+        <label style="font-size: 25px;"><input type="checkbox" name="student" value="أحمد محمد"> أحمد محمد</label>
+        <label style="font-size: 25px;"><input type="checkbox" name="student" value="محمد علي"> محمد علي</label>
+        <label style="font-size: 25px;"><input type="checkbox" name="student" value="عمر خالد"> عمر خالد</label>
+        <label style="font-size: 25px;"><input type="checkbox" name="student" value="خالد حسن"> خالد حسن</label>
+        <label style="font-size: 25px;"><input type="checkbox" name="student" value="محمود إبراهيم"> محمود إبراهيم</label>
+        <label style="font-size: 25px;"><input type="checkbox" name="student" value="يوسف سامي"> يوسف سامي</label>
+        <label style="font-size: 25px;"><input type="checkbox" name="student" value="علي عبد الله"> علي عبد الله</label>
+        <label style="font-size: 25px;"><input type="checkbox" name="student" value="حسن عمر"> حسن عمر</label>
+        <label style="font-size: 25px;"><input type="checkbox" name="student" value="سعيد محمود"> سعيد محمود</label>
+        <label style="font-size: 25px;"><input type="checkbox" name="student" value="عبد الرحمن طارق"> عبد الرحمن طارق</label>
+        <label style="font-size: 25px;"><input type="checkbox" name="student" value="إبراهيم أحمد"> إبراهيم أحمد</label>
+        <label style="font-size: 25px;"><input type="checkbox" name="student" value="طارق فؤاد"> طارق فؤاد</label>
+        <label style="font-size: 25px;"><input type="checkbox" name="student" value="خالد عمر"> خالد عمر</label>
+        <label style="font-size: 25px;"><input type="checkbox" name="student" value="أحمد سمير"> أحمد سمير</label>
+        <label style="font-size: 25px;"><input type="checkbox" name="student" value="مروان حسن"> مروان حسن</label>
+        <label style="font-size: 25px;"><input type="checkbox" name="student" value="إسلام أشرف"> إسلام أشرف</label>
+        <label style="font-size: 25px;"><input type="checkbox" name="student" value="كريم محمود"> كريم محمود</label>
+        <label style="font-size: 25px;"><input type="checkbox" name="student" value="أيمن يوسف"> أيمن يوسف</label>
+        <label style="font-size: 25px;"><input type="checkbox" name="student" value="شريف خالد"> شريف خالد</label>
+        <label style="font-size: 25px;"><input type="checkbox" name="student" value="عادل محمد"> عادل محمد</label>
+        <label style="font-size: 25px;"><input type="checkbox" name="student" value="أحمد ياسر"> أحمد ياسر</label>
+        <label style="font-size: 25px;"><input type="checkbox" name="student" value="محمد سامح"> محمد سامح</label>
+        <label style="font-size: 25px;"><input type="checkbox" name="student" value="حازم أحمد"> حازم أحمد</label>
+        <label style="font-size: 25px;"><input type="checkbox" name="student" value="زياد مصطفى"> زياد مصطفى</label>
+        <label style="font-size: 25px;"><input type="checkbox" name="student" value="إيهاب محمود"> إيهاب محمود</label>
+        <label style="font-size: 25px;"><input type="checkbox" name="student" value="مصطفى محمد"> مصطفى محمد</label>
+        <label style="font-size: 25px;"><input type="checkbox" name="student" value="حسن فؤاد"> حسن فؤاد</label>
+        <label style="font-size: 25px;"><input type="checkbox" name="student" value="عبد الله عمرو"> عبد الله عمرو</label>
+        <label style="font-size: 25px;"><input type="checkbox" name="student" value="محمد تامر"> محمد تامر</label>
+        <label style="font-size: 25px;"><input type="checkbox" name="student" value="أشرف عبد الله"> أشرف عبد الله</label>
+        <label style="font-size: 25px;"><input type="checkbox" name="student" value="خالد شريف"> خالد شريف</label>
+        <label style="font-size: 25px;"><input type="checkbox" name="student" value="محمود حسان"> محمود حسان</label>
+        <label style="font-size: 25px;"><input type="checkbox" name="student" value="عماد أحمد"> عماد أحمد</label>
+        <label style="font-size: 25px;"><input type="checkbox" name="student" value="رامي محمود"> رامي محمود</label>
+        <label style="font-size: 25px;"><input type="checkbox" name="student" value="إسلام علي"> إسلام علي</label>
+        <label style="font-size: 25px;"><input type="checkbox" name="student" value="حسين محمد"> حسين محمد</label>
+        <label style="font-size: 25px;"><input type="checkbox" name="student" value="محمود عبد الله"> محمود عبد الله</label>
+        <label style="font-size: 25px;"><input type="checkbox" name="student" value="محمد حسين"> محمد حسين</label>
+        <label style="font-size: 25px;"><input type="checkbox" name="student" value="كريم علي"> كريم علي</label>
+        <label style="font-size: 25px;"><input type="checkbox" name="student" value="خالد سعيد"> خالد سعيد</label>
+        <label style="font-size: 25px;"><input type="checkbox" name="student" value="أحمد فريد"> أحمد فريد</label>
+        <label style="font-size: 25px;"><input type="checkbox" name="student" value="سامي محمد"> سامي محمد</label>
+        <label style="font-size: 25px;"><input type="checkbox" name="student" value="مروان طارق"> مروان طارق</label>
+    </form>
+<br>
+    <button onclick="showAbsence()" style="color: white; background-color: black;">عرض الغياب</button>
+    <div id="result"></div>
+</div>
+
+<script>
+function showAbsence() {
+    const checkboxes = document.querySelectorAll('input[name="student"]:checked');
+    let names = [];
+    checkboxes.forEach(cb => names.push(cb.value));
+
+    const resultDiv = document.getElementById('result');
+    if (names.length > 0) {
+        resultDiv.innerHTML = "<strong>الطلاب الغائبين:</strong><br>" + names.join("<br>");
+    } else {
+        resultDiv.innerHTML = "<strong>لا يوجد طلاب غائبين</strong>";
+    }
+}
+</script>
+
+    </div>
+    <hr>
+    <h1 style="color: white;">إدخال درجات الطلاب</h1>
+
+<div class="student-list">
+    <form id="gradesForm">
+        <label>أحمد محمد: <input type="number" name="أحمد محمد" min="0" max="100"></label>
+        <label>محمد علي: <input type="number" name="محمد علي" min="0" max="100"></label>
+        <label>عمر خالد: <input type="number" name="عمر خالد" min="0" max="100"></label>
+        <label>خالد حسن: <input type="number" name="خالد حسن" min="0" max="100"></label>
+        <label>محمود إبراهيم: <input type="number" name="محمود إبراهيم" min="0" max="100"></label>
+        <label>يوسف سامي: <input type="number" name="يوسف سامي" min="0" max="100"></label>
+        <label>علي عبد الله: <input type="number" name="علي عبد الله" min="0" max="100"></label>
+        <label>حسن عمر: <input type="number" name="حسن عمر" min="0" max="100"></label>
+        <label>سعيد محمود: <input type="number" name="سعيد محمود" min="0" max="100"></label>
+        <label>عبد الرحمن طارق: <input type="number" name="عبد الرحمن طارق" min="0" max="100"></label>
+        <label>إبراهيم أحمد: <input type="number" name="إبراهيم أحمد" min="0" max="100"></label>
+        <label>طارق فؤاد: <input type="number" name="طارق فؤاد" min="0" max="100"></label>
+        <label>خالد عمر: <input type="number" name="خالد عمر" min="0" max="100"></label>
+        <label>أحمد سمير: <input type="number" name="أحمد سمير" min="0" max="100"></label>
+        <label>مروان حسن: <input type="number" name="مروان حسن" min="0" max="100"></label>
+        <label>إسلام أشرف: <input type="number" name="إسلام أشرف" min="0" max="100"></label>
+        <label>كريم محمود: <input type="number" name="كريم محمود" min="0" max="100"></label>
+        <label>أيمن يوسف: <input type="number" name="أيمن يوسف" min="0" max="100"></label>
+        <label>شريف خالد: <input type="number" name="شريف خالد" min="0" max="100"></label>
+        <label>عادل محمد: <input type="number" name="عادل محمد" min="0" max="100"></label>
+        <label>أحمد ياسر: <input type="number" name="أحمد ياسر" min="0" max="100"></label>
+        <label>محمد سامح: <input type="number" name="محمد سامح" min="0" max="100"></label>
+        <label>حازم أحمد: <input type="number" name="حازم أحمد" min="0" max="100"></label>
+        <label>زياد مصطفى: <input type="number" name="زياد مصطفى" min="0" max="100"></label>
+        <label>إيهاب محمود: <input type="number" name="إيهاب محمود" min="0" max="100"></label>
+        <label>مصطفى محمد: <input type="number" name="مصطفى محمد" min="0" max="100"></label>
+        <label>حسن فؤاد: <input type="number" name="حسن فؤاد" min="0" max="100"></label>
+        <label>عبد الله عمرو: <input type="number" name="عبد الله عمرو" min="0" max="100"></label>
+        <label>محمد تامر: <input type="number" name="محمد تامر" min="0" max="100"></label>
+        <label>أشرف عبد الله: <input type="number" name="أشرف عبد الله" min="0" max="100"></label>
+        <label>خالد شريف: <input type="number" name="خالد شريف" min="0" max="100"></label>
+        <label>محمود حسان: <input type="number" name="محمود حسان" min="0" max="100"></label>
+        <label>عماد أحمد: <input type="number" name="عماد أحمد" min="0" max="100"></label>
+        <label>رامي محمود: <input type="number" name="رامي محمود" min="0" max="100"></label>
+        <label>إسلام علي: <input type="number" name="إسلام علي" min="0" max="100"></label>
+        <label>حسين محمد: <input type="number" name="حسين محمد" min="0" max="100"></label>
+        <label>محمود عبد الله: <input type="number" name="محمود عبد الله" min="0" max="100"></label>
+        <label>محمد حسين: <input type="number" name="محمد حسين" min="0" max="100"></label>
+        <label>عمر ياسر: <input type="number" name="عمر ياسر" min="0" max="100"></label>
+        <label>كريم علي: <input type="number" name="كريم علي" min="0" max="100"></label>
+        <label>خالد سعيد: <input type="number" name="خالد سعيد" min="0" max="100"></label>
+        <label>أحمد فريد: <input type="number" name="أحمد فريد" min="0" max="100"></label>
+        <label>سامي محمد: <input type="number" name="سامي محمد" min="0" max="100"></label>
+        <label>مروان طارق: <input type="number" name="مروان طارق" min="0" max="100"></label>
+    </form>
+
+    <button onclick="showGrades()" style="color: rgb(0, 0, 0);">حفظ الدرجات</button>
+    <div id="result"></div>
+</div>
+
+<script>
+function showGrades() {
+    const inputs = document.querySelectorAll('#gradesForm input[type="number"]');
+    let result = "<strong>درجات الطلاب:</strong><br>";
+    inputs.forEach(input => {
+        const name = input.name;
+        const grade = input.value || "لم يتم الإدخال";
+        result += `${name} : ${grade}<br>`;
+    });
+    document.getElementById('result').innerHTML = result;
+}
+</script>
+
+
+</body>
