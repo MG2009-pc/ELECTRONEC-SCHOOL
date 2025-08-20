@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>تسجيل الدخول</title>
+  <style>
+           body {
+            margin: 0;
+            padding: 0;
+            background-image: url(13.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+
+    .login-box {
+      background: #fff;
+     
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+      text-align: center;
+    }
+    input[type="password"], button {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+    button {
+      background: #00252b;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #001a20;
+    }
+  </style>
+</head>
+<body>
+        <center>
+ <div style="border: double; border-radius: 20px; background-image: url(10.jpg); background-repeat: no-repeat; background-size: cover;"">
+<center><h1 style="color: rgb(255, 255, 255); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 40px;">WRITE TEACHER PSSWORD</h1></center>
+<center><h1 style="color: rgb(255, 255, 255); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 40px;">ادخل كلمه مرور المعلم</h1></center>
+ </div><center>
+    <br>
+    <br>
+    <br>
+    <center>
+  <div class="login-box" style="width: 90%; background-image: url(11.jpg); background-repeat: no-repeat; background-size: cover;">
+   <br>
+    <h2 style="color: beige; font-size: 30px;">تسجيل الدخول</h2>
+    <input type="password" id="password" placeholder="ادخل كلمة المرور" style="width: 90%;">
+    <button onclick="checkPassword()" style="width: 90%;">دخول</button>
+    <p id="error" style="color:rgb(255, 0, 0); display:none; font-size: 30px;">كلمة المرور غير صحيحة</p>
+<br>
+</div></center>
+
+  <script>
+    function checkPassword() {
+      const pass = document.getElementById("password").value;
+      if (pass === "159357") {
+        window.location.href = "TE.html";
+      } else {
+        document.getElementById("error").style.display = "block";
+      }
+    }
+  </script>
+   <br>
+    <br>
+<hr>
+<center>
+       <a href="index3 omar.html"  >
+                <button style="background-color: rgb(0, 160, 160); width: 300px; height: 80px;">
+                    <h2 style="align-items: center; align-content: center;">BACK</h2>
+                </button>
+            </a>
+      </div></center>
+      <div style="border-radius: 20px; background-color: rgba(255, 255, 255, 0.226);">
+ <center><h2 style="color: black; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Agamy Team copyrights@2025</h2></center>
+      
+            <center><h2 style="color: rgb(11, 36, 56); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">DIGITOPIA</h2></center>
+            <br>
+            <center><img src="download.png" ></center>
+<center><img src="kkkk.png" width="300px" ></center></section>
+</div>
+</body>
+</html>
